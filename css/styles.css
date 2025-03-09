@@ -668,10 +668,6 @@ p {
 .close-btn-icon {
 }
 
-/*.modal-form {
-  gap: 24px;
-}*/
-
 .modal-text {
   font: 500 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
@@ -680,13 +676,23 @@ p {
   margin-bottom: 16px;
 }
 
-.modal-container-block {
-  /*margin-bottom: 8px;*/
+/*.modal-container-block {
+  margin-bottom: 8px;
+  gap: 24px;
+}*/
+
+form {
+  display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 
+/*.modal-form {
+  gap: 24px;
+}*/
+
 .madal-form-label {
-  display: block;
+  display: flex;
   margin-bottom: 4px;
   font: 400 12px / 1.17;
   letter-spacing: 0.04em;
@@ -749,7 +755,7 @@ p {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 
 .label-checkbox a {
@@ -769,9 +775,9 @@ p {
   fill: #f4f4fd;
 }
 
-.modal-form-con-checkbox {
+/*.modal-form-con-checkbox {
   margin-bottom: 24px;
-}
+}*/
 
 .user-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
