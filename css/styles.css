@@ -530,6 +530,7 @@ p {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-subscribe-text {
@@ -546,13 +547,13 @@ p {
   height: 40px;
   border: 1px solid #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
   /*margin: 0;
   padding: 0;*/
   font: 400 12px / 2 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
-  padding-left: 16px;
+  /*padding-left: 16px;*/
 }
 
 .footer-input:hover,
@@ -579,13 +580,15 @@ p {
   color: #fff;
   border-radius: 4px;
   padding: 8px 24px;
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   margin-left: 24px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
 }
 
 .footer-button:hover,
@@ -639,7 +642,7 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop: not(is-open) .modal {
+.backdrop:not(is-open) .modal {
   transform: translate (-50%, -100%);
 }
 
@@ -665,8 +668,8 @@ p {
   background-color: #404bbf;
 }
 
-.close-btn-icon {
-}
+/*.close-btn-icon {
+}*/
 
 .modal-text {
   font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -681,11 +684,11 @@ p {
   gap: 24px;
 }*/
 
-form {
+/*form {
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
+}*/
 
 /*.modal-form {
   gap: 24px;
