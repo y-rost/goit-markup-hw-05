@@ -668,9 +668,9 @@ p {
 .close-btn-icon {
 }
 
-.modal-form {
+/*.modal-form {
   gap: 24px;
-}
+}*/
 
 .modal-text {
   font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -681,7 +681,8 @@ p {
 }
 
 .modal-container-block {
-  margin-bottom: 8px;
+  /*margin-bottom: 8px;*/
+  gap: 24px;
 }
 
 .madal-form-label {
@@ -723,6 +724,7 @@ p {
   left: 16px;
   fill: #2e2f42;
   transform: translateY(-50%);
+  background-color: transparent;
 }
 
 .modal-form-input:focus + .modal-form-icon {
